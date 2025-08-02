@@ -1,73 +1,66 @@
-# 📢 Ad Campaign Performance Dashboard (Facebook/Instagram)
+# 📢 Social Media Ads Performance Dashboard
 
 ## 🎯 Objective
 
-To evaluate the performance of digital marketing campaigns (Facebook & Instagram) by analyzing key metrics like engagement, Click-Through Rate (CTR), conversion rate, and ROI. The goal is to turn ad data into insights for better campaign strategy and optimization.
-
-> 🧠 A marketing analytics project built as part of the Future Interns Data Analytics Internship.
+To analyze multi-channel digital advertising data (Facebook, Instagram, Google Ads, TV, etc.) and visualize campaign performance using KPIs such as ROI, CTR, product sales, and ad spend. The goal is to evaluate effectiveness and guide better marketing strategy decisions.
 
 ---
 
-## 📊 Dashboard Features
+## 📊 Dashboard Overview
 
-- 📈 **CTR, ROI, Impressions, Engagement** KPIs
-- 🧩 Interactive filters: Platform, Campaign Name, Date
-- 📅 Time series analysis of campaign performance
-- 🎯 Campaign-level ROI comparison
-- 🌐 Channel effectiveness: Facebook vs. Instagram
-- 🖼️ (Optional) Visuals created in **Canva** for summary reporting
+![Dashboard Preview](Screenshot%202025-08-02%20140912.png)
+
+- **ROI by Channel** – Identify which platforms give the best return.
+- **Product Sold** – Compare sales volume driven by each channel.
+- **Ad Spend Distribution** – Evaluate budget allocation across platforms.
+- **Interactive KPIs** – Total Product Sold, Total Ad Spend, Average ROI.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🧰 Tools & Tech Used
 
-- **Power BI Desktop** for dashboard development
-- **Google Looker Studio** (alternate visualization)
-- **Excel / Google Sheets** for data cleaning & transformation
-- **DAX** for marketing KPIs
-- **Canva** for presentation-ready summaries (optional)
+- **Power BI Desktop**
+- **Excel / Google Sheets** (Data cleanup & formatting)
+- **DAX** – For calculating marketing KPIs
+- **Canva** – For visual storytelling (optional)
 
 ---
 
 ## 📈 Metrics Analyzed
 
-| Metric               | Purpose                                      |
-|----------------------|----------------------------------------------|
-| Impressions          | How many times the ad was shown              |
-| Clicks               | How many users clicked the ad                |
-| CTR (Click-Through Rate) | Engagement rate of the ad             |
-| Conversions          | Actions taken after ad click (e.g., purchase)|
-| Conversion Rate      | % of clicks that led to conversions          |
-| Cost per Click (CPC) | Efficiency of the campaign spend             |
-| ROI                  | Return on investment from the campaign       |
+| Metric         | Description                                      |
+|----------------|--------------------------------------------------|
+| Product Sold   | Total units sold via each channel                |
+| ROI            | Return on investment from each ad platform       |
+| Ad Spend       | Total budget spent per channel                   |
+| Engagement     | (If available) Clicks, CTR, Impressions          |
 
 ---
 
 ## 💡 Key Insights
 
-- Identified high-performing campaigns based on ROI and CTR.
-- Discovered underperforming ads with low engagement and high CPC.
-- Optimized scheduling based on best-performing days.
-- Found Facebook ads had higher reach, but Instagram had better engagement.
+- **Influencer Marketing** produced the **highest ROI**, making it the most efficient investment.
+- **TV and Google Ads** contributed the **most to product sales**, indicating strong brand reach.
+- Budget distribution was balanced across all channels, but **billboards and social media** underperformed in ROI.
+- The dashboard allows marketers to **optimize budget** allocation and improve future campaign strategy.
 
 ---
 
 ## 📚 Skills Gained
 
-- Marketing analytics
-- Performance measurement
-- Campaign storytelling using dashboards
-- Dashboard design and optimization
-- DAX for advanced KPI calculations
+- Marketing performance analytics  
+- Campaign comparison and optimization  
+- ROI calculation using DAX  
+- Dashboard storytelling for business use cases
 
 ---
 
-## 📁 Files Included
+## 📁 Project Files
 
-- `.pbix` – Power BI dashboard file  
-- (Optional) Looker Studio link  
-- Summary visuals for reporting  
-- `README.md`
+- `Advertising_Data.csv` – Campaign dataset  
+- `.pbix` – Power BI report file  
+- `Screenshot 2025-08-02 140912.png` – Dashboard preview  
+- `README.md` – Project documentation
 
 ---
 
